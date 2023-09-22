@@ -16,7 +16,13 @@ function Header() {
           <div className='header-logo'>
             <p>SHOP APP</p>
           </div>
-          <div className='header-search'></div>
+          <div className='header-search'>
+            <img src='/images/menu-1.png' className='header-categories-icon'></img>
+            <p>Categories</p>
+            <img src="/images/Line.png" alt="" />
+            <input type="" placeholder='Search Item' />
+            <img src="/images/SearchIcon.png" alt="" />
+          </div>
           <img src="images/Cart-vector.png" alt="" className='cart-vector'/>
           <img src="images/UserItem.png" alt="" className='user-vector'/>
         </div>
