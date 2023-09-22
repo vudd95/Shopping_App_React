@@ -1,0 +1,23 @@
+.categoriesName{
+    height: 43px;
+    width: 1152px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.categoriesName p{
+    position: absolute;
+    top: 9px;
+    left: 28px;
+}
+
+.categoriesName button{
+    width: 131px;
+    height: 31px;
+    border-radius: 56px;
+    border: 1px solid #f0e36a;
+    position: absolute;
+    top: 6px;
+    right: 20px;
+}

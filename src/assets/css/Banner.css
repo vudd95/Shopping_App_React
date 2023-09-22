@@ -1,0 +1,23 @@
+
+.banner-top img{
+    width: 862px;
+    height: 386px;
+}
+
+.banner-bottom{
+    display: flex;
+
+}
+
+.banner-bottom .carousel-bottom-1{
+    width: 280px;
+    height: 224px;
+}
+
+.banner-1{
+    margin-right: 9px;
+}
+
+.banner-2{
+    margin-right: 12px;
+}
