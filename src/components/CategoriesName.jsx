@@ -1,11 +1,13 @@
 import React from 'react'
 import '../assets/css/CategoriesName.css'
 
-function CategoriesName() {
+function CategoriesName({setCount}) {
+
+
   return (
     <div className='categoriesName'>
         <p>Bestsellers</p>
-        <button>Show more...</button>
+        <button onClick={setCount}>Show more...</button>
     </div>
   )
 }

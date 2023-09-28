@@ -1,7 +1,7 @@
 import React from 'react'
 import "../assets/css/Header.css"
 
-function Header() {
+function Header({count}) {
   return (
     <div className='header'>
         <div className='header-links'>
@@ -24,6 +24,7 @@ function Header() {
             <img src="/images/SearchIcon.png" alt="" />
           </div>
           <img src="images/Cart-vector.png" alt="" className='cart-vector'/>
+          <p>{count}</p>
           <img src="images/UserItem.png" alt="" className='user-vector'/>
         </div>
     </div>
