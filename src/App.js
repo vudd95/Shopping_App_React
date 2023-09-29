@@ -6,6 +6,7 @@ import Benefit from './components/Benefit';
 import CategoriesName from './components/CategoriesName';
 import ProductCard from './components/ProductCard';
 import { useState } from 'react';
+import Product_Details from './Product_Details/Product_Details';
 
 function App() {
 
@@ -34,7 +35,7 @@ function App() {
         <ProductCard></ProductCard>
         <ProductCard></ProductCard>
       </div>
-      <div className='product-card-list'>
+      {/* <div className='product-card-list'>
         <ProductCard></ProductCard>
         <ProductCard></ProductCard>
         <ProductCard></ProductCard>
@@ -45,7 +46,13 @@ function App() {
         <ProductCard></ProductCard>
         <ProductCard></ProductCard>
         <ProductCard></ProductCard>
-      </div>
+      </div> */}
+      <br></br>
+      <br></br>
+      <hr></hr>
+
+      <Product_Details></Product_Details>
+      
       
    </div>
    </>
